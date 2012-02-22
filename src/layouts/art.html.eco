@@ -1,0 +1,9 @@
+--- yaml
+layout: 'default'
+---
+
+<div class="artItem">
+	<h1><%- @document.title %></h1>
+	<h3><%- @document.year %></h3>
+	<p><%- @document.description %></p>
+</div>

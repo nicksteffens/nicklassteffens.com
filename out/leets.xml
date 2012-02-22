@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<leets>
+	<leet>
+		<name>Leet 101</name>
+		<game01>WoW</game01>
+		<game02>Starcraft: 2</game02>
+		<game03>Counter-Strike</game03>
+	</leet>
+	<leet>
+		<name>Leet 102</name>
+		<game01>WoW</game01>
+		<game02>Starcraft: 2</game02>
+		<game03>Counter-Strike</game03>
+	</leet>
+	<leet>
+		<name>Leet 103</name><game01>WoW</game01>
+		<game02>Starcraft: 2</game02>
+		<game03>Counter-Strike</game03>
+	</leet>
+	<leet>
+		<name>Leet 104</name><game01>WoW</game01>
+		<game02>Starcraft: 2</game02>
+		<game03>Counter-Strike</game03>
+	</leet>
+	<leet>
+		<name>Leet 105</name><game01>WoW</game01>
+		<game02>Starcraft: 2</game02>
+		<game03>Counter-Strike</game03>
+	</leet>
+	<leet>
+		<name>Leet 106</name><game01>WoW</game01>
+		<game02>Starcraft: 2</game02>
+		<game03>Counter-Strike</game03>
+	</leet>
+	<leet>
+		<name>Leet 107</name><game01>WoW</game01>
+		<game02>Starcraft: 2</game02>
+		<game03>Counter-Strike</game03>
+	</leet>
+</leets>
