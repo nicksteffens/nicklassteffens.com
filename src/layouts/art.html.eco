@@ -1,9 +1,11 @@
---- yaml
+--- coffee
 layout: 'default'
+section: 'studio furniture'
 ---
-
 <div class="artItem">
 	<h1><%- @document.title %></h1>
 	<h3><%- @document.year %></h3>
-
+	<% for image in @document.images: %>
+		<%- image %>
+	<% end %>
 </div>

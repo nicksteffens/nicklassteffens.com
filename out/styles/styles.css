@@ -56,7 +56,7 @@ body {
 .hr {
 	width:100%;
 	height:2px;
-	background:url(/media/images/hr.png) no-repeat;
+	background:url(images/hr.png) no-repeat;
 	clear:both;
 }
 .occupation {
@@ -69,6 +69,7 @@ body {
 	letter-spacing:9px;
 	font-weight:lighter;
 }
+.name a {color:#404040; text-decoration:none;}
 .contactInfo {
 	list-style-type:none;
 	clear:both;

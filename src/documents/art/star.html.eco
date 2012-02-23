@@ -3,5 +3,9 @@ layout: 'art'
 title: 'Star'
 year: 2011
 description: 'Walnut King Size bed.'
-thumburl: 'images/furniture/thumbs/star.png'
+thumburl: 'star.png'
+images:[
+	'star_01.jpg'
+	'star_02.jpg'
+]
 ---

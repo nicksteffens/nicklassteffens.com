@@ -3,9 +3,9 @@ layout: 'art'
 title: 'Acrylic'
 year: 2006
 description: 'Group colaberation in exploration of acrylic sheet bending.'
-thumburl: 'images/art_thumbs/acrylic.jpg'
+thumb: 'acrylic.jpg'
 images: [
-	'images/furniture/acrylic_01.jpg'
-	'images/furniture/acrylic_02.jpg'
+	'acrylic_01.jpg'
+	'acrylic_02.jpg'
 	]
 ---

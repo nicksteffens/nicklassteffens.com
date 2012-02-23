@@ -3,8 +3,8 @@ layout: 'art'
 title: '50s Shelf'
 year: 2007
 description: 'Exploration in 1950&34;s insperation.'
-thumburl: 'images/furniture/thumbs/fifitiesshelf.jpg'
+thumburl: 'fifitiesshelf.jpg'
 images: [
-	'images/furniture/fifitiesshelf.jpg'
+	'fifitiesshelf_01.jpg'
 ]
 ---

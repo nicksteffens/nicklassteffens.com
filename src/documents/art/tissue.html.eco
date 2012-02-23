@@ -3,10 +3,10 @@ layout: 'art'
 title: 'Tissue ?'
 year: 2008
 description: 'Exploration in surrealism and specific purpose.'
-thumburl: 'images/furniture/thumbs/tissue.jpg'
+thumb: 'tissue.jpg'
 images: [
-	'images/furniture/tissue_01.jpg'
-	'images/furniture/tissue_02.jpg'
-	'images/furniture/tissue_03.jpg'
+	'tissue_01.jpg'
+	'tissue_02.jpg'
+	'tissue_03.jpg'
 ]
 ---

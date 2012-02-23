@@ -2,11 +2,11 @@
 layout: 'art'
 title: 'Bed'
 year: 2011
-images: [
-	'images/furniture/bed01.jpg'
-	'images/furniture/bed02.jpg'
-	'images/furniture/bed03.jpg'
-]
 description: 'Walnut King Size bed.'
-thumburl: 'images/furniture/thumbs/bed.png'
+thumburl: 'bed.png'
+images: [
+	'bed_01.jpg'
+	'bed_02.jpg'
+	'bed_03.jpg'
+]
 ---

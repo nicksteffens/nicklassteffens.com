@@ -3,9 +3,9 @@ layout: 'art'
 title: 'Danes'
 year: 2007
 description: 'Exploration in cork. And play on cartoon characteristics.'
-thumburl: 'images/furniture/thumbs/dane.jpg'
+thumburl: 'dane.jpg'
 images: [
-	'images/furniture/danes.png'
-	'images/furniture/dane2.png'
+	'dane_01.png'
+	'dane_02.png'
 	]
 ---
