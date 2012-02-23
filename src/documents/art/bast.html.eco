@@ -1,0 +1,12 @@
+--- coffee
+layout: 'art'
+title: 'Bast'
+year: 2008
+description: 'Media console to house all physical media and player devices.'
+thumburl: 'images/furniture/thumbs/Bast.jpg'
+images: [
+	'images/furniture/Bast_01.jpg'
+	'images/furniture/Bast_02.jpg'
+	'images/furniture/Bast_03.jpg'
+	]
+---

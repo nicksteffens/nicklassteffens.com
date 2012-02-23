@@ -10,11 +10,3 @@ images: [
 description: 'Walnut King Size bed.'
 thumburl: 'images/furniture/thumbs/bed.png'
 ---
-
-<%- @document.images[2] %>
-
-<% for image in @document.images : %>
-
-	<%- image %>
-
-<% end %>

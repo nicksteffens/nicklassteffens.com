@@ -7,7 +7,7 @@ section: 'studio furniture'
 <ul>
 	<% for document in @documents: %>
 	    <% if document.url.indexOf('/art') is 0: %>
-			<li><img src="media/<%- document.thumburl %>" alt="<%- document.title %><%- document.year %>"/></li>
+			<li><img src="media/<%- document.thumburl %>" alt="<%- document.title %> <%- document.year %>"/></li>
 	    <% end %>
 	<% end %>
 </ul>

@@ -7,7 +7,7 @@
 	<meta name="author" content="Nicklas Steffens, 12/02/2012" />
 	<title><%- @title %></title>
 	<link rel="icon" type="image/png" href="fav.ico">
-	<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+	<link href="/styles/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div id="header">
@@ -19,6 +19,11 @@
 	<div id="content">
 		<!-- Template Content -->
 		<%- @content %>
+		<% for image in @document.images : %>
+
+			<%- image %>
+
+		<% end %>
 	</div>
 	<div id="footer">
 			<ul id="nav">
@@ -32,8 +37,8 @@
 			</ul>
 	</div>
 	<!-- scripts -->
-	<script type="text/javascript" src="scripts/jquery.js"></script>
-	<script type="text/javascript" src="scripts/application.js"></script>
+	<script type="text/javascript" src="/scripts/jquery.js"></script>
+	<script type="text/javascript" src="/scripts/application.js"></script>
 	<script type="text/javascript">
 		NS.init();
 	</script>
