@@ -4,10 +4,11 @@ layout: 'default'
 section: 'studio furniture'
 ---
 
-<ul>
+<ul class="art-thumbs">
 	<% for document in @documents: %>
 	    <% if document.url.indexOf('/art') is 0: %>
-			<li><img src="media/<%- document.thumburl %>" alt="<%- document.title %> <%- document.year %>"/></li>
+			<li><a href="<%- document.url %>"><img src="media/<%- document.thumburl %>" alt="<%- document.title %> <%- document.year %>"/></a></li>
 	    <% end %>
 	<% end %>
 </ul>
+<div class="clearfix"></div>
