@@ -1,0 +1,10 @@
+--- coffee
+layout: 'art'
+title: 'Throne'
+year: 2007
+description: 'Exploration in surrealism, bringing out my inner-child.'
+thumburl: 'images/furniture/thumbs/throne01.jpg'
+images: [
+	'images/furniture/throne01.jpg'
+]
+---

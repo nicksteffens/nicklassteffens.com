@@ -1,0 +1,10 @@
+--- coffee
+layout: 'art'
+title: 'Sink'
+year: 2007
+description: 'Exploration in contemporary design and space utilization.'
+thumburl: 'images/furniture/thumbs/sink.jpg'
+images: [
+	'images/furniture/sink.jpg'
+]
+---

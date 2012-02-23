@@ -1,0 +1,10 @@
+--- coffee 
+layout: 'art'
+title: 'Pink Chair'
+year: 2007
+description: 'Exploration in airline cables and public seating.'
+thumburl: 'images/furniture/thumbs/PinkChair.jpg'
+images: [
+	'images/furniture/PinkChair.jpg'
+]
+---

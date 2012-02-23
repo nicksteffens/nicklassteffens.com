@@ -1,0 +1,12 @@
+--- coffee
+layout: 'art'
+title: 'Tissue ?'
+year: 2008
+description: 'Exploration in surrealism and specific purpose.'
+thumburl: 'images/furniture/thumbs/tissue.jpg'
+images: [
+	'images/furniture/tissue_01.jpg'
+	'images/furniture/tissue_02.jpg'
+	'images/furniture/tissue_03.jpg'
+]
+---

@@ -1,0 +1,12 @@
+--- coffee 
+layout: 'art'
+title: 'Thumb Tacs'
+year: 2007
+description: 'Exploration in surrealism and utilization of everyday objects'
+thumburl: 'images/furniture/thumbs/thumbtacks.jpg'
+images: [
+	'images/furniture/thumbtacks_01.jpg'
+	'images/furniture/thumbtacks_02.jpg'
+	'images/furniture/thumbtacks_03.jpg'
+]
+---

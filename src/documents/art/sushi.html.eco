@@ -1,0 +1,10 @@
+--- coffee
+layout: 'art'
+title: 'Sushi'
+year: 2007
+description: 'Play on sushi mat. Couch for children. Exploration in multi-purpose'
+thumburl: 'images/furniture/thumbs/sushi01.jpg'
+images: [
+	'images/furniture/sushi01.jpg'
+]
+---
