@@ -3,7 +3,7 @@ layout: 'art'
 title: 'Redhat'
 year: 2011
 description: 'An urn that I made for my grandpa&#39;s passing of the past year.'
-thumburl: 'redhat.png'
+thumb: 'redhat.png'
 images:[
 	'redhat_01.jpg'
 	'redhat_02.jpg'

@@ -3,7 +3,7 @@ layout: 'art'
 title: 'Sink'
 year: 2007
 description: 'Exploration in contemporary design and space utilization.'
-thumburl: 'sink.jpg'
+thumb: 'sink.jpg'
 images: [
 	'sink_01.jpg'
 ]

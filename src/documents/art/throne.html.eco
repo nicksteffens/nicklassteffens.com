@@ -3,7 +3,7 @@ layout: 'art'
 title: 'Throne'
 year: 2007
 description: 'Exploration in surrealism, bringing out my inner-child.'
-thumburl: 'throne.jpg'
+thumb: 'throne.jpg'
 images: [
 	'throne_01.jpg'
 ]

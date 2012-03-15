@@ -3,7 +3,7 @@ layout: 'art'
 title: 'Three Stripes'
 year: 2007
 description: 'Exploration in wood combinations. This was all the first pieces of furniture I made.'
-thumburl: 'threestripes.jpg'
+thumb: 'threestripes.jpg'
 images: [
 	'threestripes_01.jpg'
 ]

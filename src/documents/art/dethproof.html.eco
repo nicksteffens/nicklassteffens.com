@@ -3,7 +3,7 @@ layout: 'art'
 title: 'DethProof'
 year: 2008
 description: 'Exploration in cartoon surrealism. Carved out of wood.'
-thumburl: 'dethproof.jpg'
+thumb: 'dethproof.jpg'
 images: [
 	'dethproof_01.jpg'
 	'dethproof_02.jpg'

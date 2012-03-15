@@ -3,7 +3,7 @@ layout: 'art'
 title: 'Pink Chair'
 year: 2007
 description: 'Exploration in airline cables and public seating.'
-thumburl: 'pinkchair.jpg'
+thumb: 'pinkchair.jpg'
 images: [
 	'pinkchair_01.jpg'
 ]
