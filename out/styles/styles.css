@@ -1,136 +1,98 @@
-/* styles.css -------- */
+/* Style Sheet */
 
 body {
-	font-family:'Arial';
-}
-#header {
-	position:absolute;
-	top:0px;
-	left:0;
-	width:100%;
-	min-width:600px;
-}
-#footer {
-	position:absolute;
-	bottom:25px;
-	left:0;
-	width:100%;
-	min-width:600px;
-	letter-spacing:5px;
-}
-#content {
-	position:absolute;
-	top:93px;
-	left:50px;
-}
-#nav {
-	list-style-type:none;
-	margin:5px 0 0 50px;
-	padding:0;
-	
-}
-#nav li {
-	margin-right:25px;
-	display:block;
-	float:left;
-}
-#nav a {
-	color:#404040;
-	text-decoration:none;
-	height:20px;
-}
-#nav a .navBlock {
-	width:9px;
-	height:9px;
- 	display:block;
-	float:left;
-	margin-top:3px;
-	margin-bottom:5px;
-	margin-right:10px;
-	border:1px solid #3E41A1;
-	}
-#nav a:hover .navBlock {background:#3E41A1;}
-.name {
-	margin:25px 50px 0;
-	color:#333333;
+
+    background-color:white;
+    color:#000000;
+    font-family: helvetica, arial;
+    font-size: 11px;
+
 }
 
-.hr {
-	width:100%;
-	height:2px;
-	background:url(images/hr.png) no-repeat;
-	clear:both;
-}
-.occupation {
-	margin:0 50px 0;
-	color:#333;
+div.productionlist {
+    height:400px;
+    width:680px;
+    overflow:auto;
+    vertical-align:middle;
 }
 
-.occupation, .name {
-	font-size:24px;
-	letter-spacing:9px;
-	font-weight:lighter;
-}
-.name a {color:#404040; text-decoration:none;}
-.contactInfo {
-	list-style-type:none;
-	clear:both;
-	margin:5px 0 0 50px;
-	padding:0;
-	
-}
-.contactInfo li {
-	display:block;
-	float:left;
-	margin-right:25px;
-	font-size:14px;
-	color:#999;
-}
-.contactInfo li a {color:#999;text-decoration:none;}
-.contactInfo li a:hover {color:#3E41A1;}
+.splash {
 
-.art-thumbs {
-	list-style-type:none;
-	width:45%;
-	margin:0;
-	padding:0;
+    position:absolute;
+    top:40%;    
+    
 }
-	.art-thumbs li {
-		display:block;
-		float:left;
-		margin:8px 8px 0 0;
-	}
-	.art-thumbs li img {
-		opacity: 0.55;
-		filter:Alpha(opacity=55);
-	}
-	.art-thumbs li img:hover {
-		opacity: 1.0;
-		filter:Alpha(opacity=100);
-	}
-	
-.overlay {
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:999;
-	display:none;
-	width:100%;
-	height:100%;
-	background:#000;
-	opacity: 0.85;
-	filter:Alpha(opacity=85);
+big {
+    color:#5B57A6;
 }
-.lightbox {
-	position:absolute;
-	top:50px;
-	left:25%;
-	z-index:1000;
-	display:none;
-	margin:auto;
-	padding:25px;
-	height:600px;
-	min-width:800px;
-	background:#fff;
+
+small {
+    color:#BCBEC0;
 }
-.clearfix {clear:both;}
+
+.title {
+    font:Helvetica;
+    font-size:14px;
+    color:#555555:
+}
+
+.description {
+    font:Helvetica;
+    font-size:10px;
+    color:#888888;
+}
+
+
+
+a:link {
+    border: none;
+    outline:none;
+    text-decoration:none;
+    color: #333333;
+    
+}
+
+a:visited {
+    border: none;
+    text-decoration:none;
+    color: #6600FF;
+    
+}
+
+a.img:hover, a.flash:hover, a.video:hover, a.web:hover {
+    
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
+a:hover {
+    border:none;
+    text-decoration:none;
+}
+/* --- LIGHTBOX --- */
+#lightbox{    position: absolute;    left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%    ; }
+
+#imageData{    padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }    
+#imageData #caption{ font-weight: bold;    }
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;    }            
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}         
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
