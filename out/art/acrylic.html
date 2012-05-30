@@ -5,7 +5,7 @@
     <meta name="keywords" content="Nicklas, Steffens, Nicklas Steffens, Nick Steffens, Nick, studio furniture, furniture, art, art furniture" />
     <meta name="description" content="I am a studio furniture artist and UI developer. I create the imagination in contemporary spaces giving as sense of childhood or surrealism. Primarily working in wood and using a variety of techniques to achieve fantasy and functionalism. I so build for the web focusing on user interfaces. Speciallizing in HTML/CSS and JS, pushing the web as far as I can with front end development. " />
     <meta name="author" content="Nicklas Steffens, 12/02/2012" />
-    <title>Nicklas Steffens | <%- @document.title %></title>
+    <title>Nicklas Steffens | Acrylic</title>
     <link rel="icon" type="image/png" href="fav.ico">
     <link href="/styles/styles.css" rel="stylesheet" type="text/css" />
 </head>
@@ -17,14 +17,23 @@
             <li><a href="#"><div class="navBlock"></div>gallery</a></li>
             <li><a href="#"><div class="navBlock"></div>production</a></li>
         </ul>
+        <div class="clearfix"></div>
     </div>
     
     <div id="content">
         <!-- Template Content -->
-        <%- @content %>
+        <div class="artItem">
+    <h1>Acrylic</h1>
+    <h3>2006</h3>
+    
+        acrylic_01.jpg
+    
+        acrylic_02.jpg
+    
+</div>
     </div>
     <div id="footer">
-            <div class="studioFurniture occupation"><%- @document.section %></div>
+            <div class="studioFurniture occupation"></div>
             <div class="hr"></div>
             <ul class="contactInfo">
                 <li>Chicago, IL</li>
@@ -32,7 +41,9 @@
             </ul>
     </div>
     <div class="overlay"></div>
-    <div class="lightbox"></div>
+    <div class="lightbox">
+     <div class="close">close</div>
+    </div>
     <!-- scripts -->
     <script type="text/javascript" src="/scripts/jquery.js"></script>
     <script type="text/javascript" src="/scripts/application.js"></script>

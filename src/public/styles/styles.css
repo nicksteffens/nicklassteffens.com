@@ -1,26 +1,30 @@
-/* styles.css -------- */
+/*STYLES FOR NICKLASSTEFFENS.COM*/
 
 body {
-	font-family:'Arial';
+  font-family:'Arial';
+  margin:0;
+  width:100%;
+  height:100%;
 }
+.clearfix  {clear:both;}
+
 #header {
-	position:absolute;
-	top:0px;
-	left:0;
-	width:100%;
-	min-width:600px;
+  position:relative;
+  width:100%;
+  min-width:600px;
 }
+
 #footer {
-	position:absolute;
-	bottom:25px;
-	left:0;
-	width:100%;
-	min-width:600px;
-	letter-spacing:5px;
+  position:relative;
+  top:25px;
+  left:0;
+  width:100%;
+  min-width:600px;
+  letter-spacing:5px;
 }
+
 #content {
-	position:absolute;
-	top:93px;
+	position:relative;
 	left:50px;
 }
 #nav {
@@ -95,42 +99,60 @@ body {
 	margin:0;
 	padding:0;
 }
-	.art-thumbs li {
-		display:block;
-		float:left;
-		margin:8px 8px 0 0;
-	}
-	.art-thumbs li img {
-		opacity: 0.55;
-		filter:Alpha(opacity=55);
-	}
-	.art-thumbs li img:hover {
-		opacity: 1.0;
-		filter:Alpha(opacity=100);
-	}
-	
+.art-thumbs li {
+	display:block;
+	float:left;
+	margin:8px 8px 0 0;
+}
+.art-thumbs li img {
+	opacity: 0.55;
+	filter:Alpha(opacity=55);
+}
+.art-thumbs li img:hover {
+	opacity: 1.0;
+	filter:Alpha(opacity=100);
+}
+
 .overlay {
 	position:absolute;
 	top:0;
 	left:0;
+	bottom:0;
+	right:0;
 	z-index:999;
 	display:none;
-	width:100%;
-	height:100%;
 	background:#000;
 	opacity: 0.85;
 	filter:Alpha(opacity=85);
+
 }
 .lightbox {
-	position:absolute;
-	top:50px;
-	left:25%;
-	z-index:1000;
-	display:none;
-	margin:auto;
-	padding:25px;
-	height:600px;
-	min-width:800px;
-	background:#fff;
+  position:absolute;
+  top:50px;
+  left:50%;
+  margin-left:-400px;
+  z-index:1000;
+  display:none;
+  padding:25px;
+  height:550px;
+  min-width:750px;
+  background:#fff;
+  border-top-left-radius:20px;
+  border-bottom-right-radius:20px;
 }
+.lightbox .close {
+  position:absolute;
+  display:block;
+  top:-25px;
+  height:20px;
+  padding:5px 0 0 0;
+  background:#fff;
+  right:0;
+  width:150px;
+  text-align:center;
+  vertical-align:middle;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+
 .clearfix {clear:both;}

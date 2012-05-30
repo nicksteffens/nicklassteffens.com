@@ -1,51 +1,58 @@
-/*
+  /*
 
-Application controlling all functions
+  Application controlling all functions
 
-*/
-NS = {
-	// collection of all jquery objects
-	objects: {
-		thumb: $('.thumb'),
-		overlay: $('.overlay'),
-		lightbox: $('.lightbox')
-	},
-	// init all functions
-	init: function() {
-		EventListener.thumbClicked();
-	}
-}
+  */
+  NS = {
+  // collection of all jquery objects
+  objects: {
+  thumb: $('.thumb'),
+  overlay: $('.overlay'),
+  lightbox: $('.lightbox'),
+  closebttn: $('.close')
+  },
+  // init all functions
+  init: function() {
+  Listener.thumbClicked();
+  }
+  }
 
-EventListener = {
-	// listens for art thumbs to be clicked
-	thumbClicked: function() {
-		NS.objects.thumb.click(function(e){
-			e.preventDefault();
-			var self = $(this).attr('title');
-			Render.toggleOverlay();
-			Render.toggleLightBox();
-			EventListener.closeOverlay();
-		});
-	},
-	
-	// listens for overlay or close to be clicked to clicked
-	closeOverlay: function() {
-		NS.objects.overlay.click(function(){
-			Render.toggleOverlay();
-			Render.toggleLightBox();
-		});
-	}
-	
+Listener = {
+  // listens for art thumbs to be clicked
+  thumbClicked: function() {
+    NS.objects.thumb.click(function(e){
+      e.preventDefault();
+      var self = $(this).attr('title');
+      Render.toggleOverlay();
+      Render.toggleLightBox();
+      Listener.closeOverlay();
+    });
+  },
+  // listens for overlay or close to be clicked to clicked
+  closeButton: function() {
+    NS.objects.thumb.click(function(e){
+      e.preventDefault();
+  }
+
+
 }
 
 Render = {
-	
-	toggleOverlay: function() {
-		NS.objects.overlay.toggle();
-	},
-	
-	toggleLightBox: function() {
-		NS.objects.lightbox.toggle();
-	}
-	
+
+  toggleOverlay: function() {
+    NS.objects.overlay.toggle();
+  },
+
+  toggleLightBox: function() {
+    NS.objects.lightbox.toggle();
+  }
+
+}
+
+Utility = {
+  
+  closeOverlay: function() {
+      Render.toggleOverlay();
+      Render.toggleLightBox();
+  }
 }
