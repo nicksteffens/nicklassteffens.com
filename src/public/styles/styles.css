@@ -153,6 +153,10 @@ body {
   vertical-align:middle;
   border-top-left-radius:5px;
   border-top-right-radius:5px;
+  cursor:pointer;
+  
+  color:#404040;
+  text-decoration:none;
 }
 
 .clearfix {clear:both;}

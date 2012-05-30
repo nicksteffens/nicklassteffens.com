@@ -6,6 +6,6 @@ section: 'studio furniture'
 	<h1><%- @document.title %></h1>
 	<h3><%- @document.year %></h3>
 	<% for image in @document.images: %>
-		<%- image %>
+		<img src="/media/images/art/<%- image %>" alt="<%- @document.title %>"/>
 	<% end %>
 </div>

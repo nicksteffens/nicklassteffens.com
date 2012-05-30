@@ -1,37 +1,47 @@
   /*
 
-  Application controlling all functions
+  Application controlling all functioController
 
   */
-  NS = {
+Controller = {
   // collection of all jquery objects
   objects: {
-  thumb: $('.thumb'),
-  overlay: $('.overlay'),
-  lightbox: $('.lightbox'),
-  closebttn: $('.close')
+    thumb: $('.thumb'),
+    overlay: $('.overlay'),
+    lightbox: $('.lightbox'),
+    closebttn: $('.close'),
+    lightboxContent: $('.lightbox .content')
   },
-  // init all functions
+  // init all functionController
   init: function() {
-  Listener.thumbClicked();
+    Listener.thumbClicked();
   }
-  }
+}
 
 Listener = {
-  // listens for art thumbs to be clicked
+  // listeController for art thumbs to be clicked
   thumbClicked: function() {
-    NS.objects.thumb.click(function(e){
+    Controller.objects.thumb.click(function(e){
       e.preventDefault();
-      var self = $(this).attr('title');
-      Render.toggleOverlay();
-      Render.toggleLightBox();
+      var url = $(this).attr('href');
+      Render.showLightBox(url);
       Listener.closeOverlay();
     });
   },
-  // listens for overlay or close to be clicked to clicked
-  closeButton: function() {
-    NS.objects.thumb.click(function(e){
+  // listeController for overlay or close to be clicked to clicked
+  closeOverlay: function() {
+    // overlay clicked
+    Controller.objects.overlay.click(function(e){
       e.preventDefault();
+      Render.closeLightBox();
+
+    });
+    // close clicked
+    Controller.objects.closebttn.click(function(e){
+      e.preventDefault();
+      Render.closeLightBox();
+    });
+    
   }
 
 
@@ -39,20 +49,25 @@ Listener = {
 
 Render = {
 
-  toggleOverlay: function() {
-    NS.objects.overlay.toggle();
+  showLightBox: function(url) {
+    Controller.objects.overlay.show();
+    Controller.objects.lightbox.show();
+    Utility.getArtInfo(url);
+    
   },
 
-  toggleLightBox: function() {
-    NS.objects.lightbox.toggle();
+  closeLightBox: function() {
+    Controller.objects.overlay.hide();
+    Controller.objects.lightbox.hide();
+    Controller.objects.lightboxContent.empty();
   }
 
 }
 
 Utility = {
   
-  closeOverlay: function() {
-      Render.toggleOverlay();
-      Render.toggleLightBox();
+  getArtInfo: function(url) {
+    // console.log('retrieving '+url);
+    Controller.objects.lightboxContent.load(url+' .artItem');
   }
 }

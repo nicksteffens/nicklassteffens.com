@@ -32,15 +32,18 @@
 				<li><a href="mailto:nicklas.steffens@gmail.com">nicklas.steffens@gmail.com</a></li>
 			</ul>
 	</div>
+	<% if @document.section == 'studio furniture' : %>
 	<div class="overlay"></div>
 	<div class="lightbox">
-	 <div class="close">close</div>
+	 <a class="close" href="#">close</a>
+	 <div class="content"><!-- DATA GOES HERE --></div>
 	</div>
+	<% end %>
 	<!-- scripts -->
 	<script type="text/javascript" src="/scripts/jquery.js"></script>
 	<script type="text/javascript" src="/scripts/application.js"></script>
 	<script type="text/javascript">
-		NS.init();
+		Controller.init();
 	</script>
 	<script type="text/javascript">
 		// google analytics
